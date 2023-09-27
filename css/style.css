@@ -1,0 +1,113 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/6.png');
+}
+
+#mynetwork {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid lightgray; */
+}
+
+#container2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#mynetwork2 {
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    width: 100%;
+    height: 70%;
+    background-image: url('../images/6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 0 auto;
+}
+
+#generate-graph {
+    margin: auto;
+    display: block;
+}
+
+#solve {
+    margin: auto;
+    display: block;
+}
+
+/* Styling for the "Get New Problem" button */
+#generate-graph {
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#generate-graph:hover {
+    background-color: #dcdcdc;
+}
+
+/* Styling for the "Solve" button */
+#solve {
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#solve:hover {
+    background-color: #dcdcdc;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    #container {
+        height: 50%; /* Adjust the height for tablet-sized screens */
+    }
+}
+
+@media (max-width: 480px) {
+    #container {
+        height: 30%; /* Adjust the height for phone-sized screens */
+    }
+}
+/* Default styles for larger screens */
+#container {
+    width: 100%;
+    height: 70%;
+    background-image: url('../images/6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* Media query for tablet-sized screens */
+@media (max-width: 768px) {
+    #container {
+        height: 50%; /* Adjust the height for tablet-sized screens */
+    }
+}
+
+/* Media query for phone-sized screens */
+@media (max-width: 480px) {
+    #container {
+        height: 30%; /* Adjust the height for phone-sized screens */
+    }
+}
